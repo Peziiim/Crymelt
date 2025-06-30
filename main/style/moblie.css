@@ -1,0 +1,35 @@
+@media (max-width: 940px) {
+    nav {
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+}
+
+.nav-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#title {
+    margin-left: 0;
+    font-size: 1.7rem;
+}
+
+#nav-li{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.item {
+    width: 1.2rem;
+}
+
+
+.head-container {
+    height: 30vh;
+}
+
+}
