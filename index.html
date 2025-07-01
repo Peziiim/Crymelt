@@ -4,45 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crymelt's gallery</title>
-    <link class="item" rel="shortcut icon" href="./assets/images/icon.png">
-    <link rel="stylesheet" href="./main/style/style.css">
-    <link rel="stylesheet" href="/main/style/p.css">
-    <link rel="stylesheet" href="./main/style/moblie.css">
+    <link class="item" rel="shortcut icon" href="./assets/images/icon.png" />
+    <link rel="stylesheet" href="./main/style/style.css" />
+    <link rel="stylesheet" href="/main/style/p.css" />
+    <link rel="stylesheet" href="./main/style/moblie.css" />
   </head>
 
   <body>
-    <section>
+    <section id="header">
       <nav class="nav">
-        <div class="nav-items">  
-        <h1 id="title">Crymelt</h1>
-        <ul id="nav-li">
+        <div class="nav-items">
+          <h1 id="title">Crymelt</h1>
+          <ul id="nav-li">
             <li class="item">
-              <a href="https://www.twitch.tv/crymelt"><img src="./assets/images/twitch.png" alt="" /></a>
+              <a href="https://www.twitch.tv/crymelt"
+                ><img src="./assets/images/twitch.png" alt=""
+              /></a>
             </li>
-          <li class="item">
-            <a href="https://www.instagram.com/crymelt/"><img src="./assets/images/instagram.png" alt="" /></a>
-          </li>
-          <li class="item">
-            <a href="mailto:crymeltcontact@gmail.com"><img src="./assets/images/email.png" alt="" /></a>
-          </li>
-          <li class="item">
-            <a href="https://www.youtube.com/@crymelt"><img src="./assets/images/youtube.png" alt="" /></a>
-          </li>
-        </ul>
+            <li class="item">
+              <a href="https://www.instagram.com/crymelt/"
+                ><img src="./assets/images/instagram.png" alt=""
+              /></a>
+            </li>
+            <li class="item">
+              <a href="mailto:crymeltcontact@gmail.com"
+                ><img src="./assets/images/email.png" alt=""
+              /></a>
+            </li>
+            <li class="item">
+              <a href="https://www.youtube.com/@crymelt"
+                ><img src="./assets/images/youtube.png" alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
       </nav>
 
       <div class="head-container">
         <span class="dot-container">
-            <div class="dot" id="dot1"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
-            <div class="dot"></div>
+          <div class="dot" id="dot1"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
         </span>
       </div>
     </section>
 
+    <section id="showcase">
+      <div class="showcase-txt">
+        <h3>Crymelt</h3>
+        <img src="assets/images/image01.gif?v=25af843c" />
+        <button>Comissions</button>
+      </div>
+      <div class="showcase-img">
+        <img id="showcase1" src="./assets/images/showcase1.png" alt="" />
+        <img id="showcase2" src="./assets/images/showcase2.png" alt="" />
+      </div>
+    </section>
+
     <section id="vitrine">
+      <h1>Gallery</h1>
       <div class="gallery">
         <div class="gallery-photo" id="p1"></div>
         <div class="gallery-photo" id="p2"></div>
@@ -58,20 +79,57 @@
         <div class="gallery-photo" id="p12"></div>
       </div>
       <div id="seemore">
-        <p>ver mais</p>
-        <p>v</p>
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <p>
+          <span><img src="" alt="" /></span> See more
+        </p>
       </div>
     </section>
 
     <section id="videos">
       <div class="vd-container">
-          <h4><span>Choice</span> <br> “Is it possible to have it all?”</h4>
-          <iframe src="https://www.youtube.com/embed/zhbXXzUTHyw?si=ZG_Z83tl_xekWup4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-          <h4 id="grid3"><span>Two</span> <br> “Is it possible to have it all?”</h4>
-          <iframe src="https://www.youtube.com/embed/zhbXXzUTHyw?si=ZG_Z83tl_xekWup4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+          <h4>
+            <span id="choice">Choice</span> <br />
+            “Is it possible to have it all?”
+          </h4>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/zhbXXzUTHyw?si=ZG_Z83tl_xekWup4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p class="tw">TW: blood</p>
+          </div>
+        </div>
+        <div>
+          <h4 id="grid3">
+            <span id="animal">Animal</span> Cannibal <br />"I fear of who I am
+            becoming" <br />
+          </h4>
+          <div>
+            <iframe
+              src="https://www.youtube.com/embed/9OcqzOxpGLk?si=2pFSczdLQxqFPIKX"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p class="tw">TW: blood</p>
+          </div>
+        </div>
       </div>
     </section>
 
+    <section>
+      <footer>Crymelt @</footer>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
   </body>
 </html>
