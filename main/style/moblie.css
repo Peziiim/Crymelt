@@ -37,6 +37,37 @@
     margin-bottom: 50px;
 }
 
+#vitrine h1 {
+    font-size: 4.5rem;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    min-height: 50vh;
+    height: auto;
+}
+
+.showcase-txt {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    right: 4vw;
+}
+
+.showcase-txt button {
+    width: auto;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 550;
+    font-size: 8px;
+}
+
+
 .gallery {
     grid-template-columns: 23vw 23vw 23vw;
     grid-template-rows: auto auto auto auto auto;
@@ -47,4 +78,33 @@
     width: 25vw;
     height: 25vw;
 }
+
+
+.vd-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px; 
+    column-gap: 0; 
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.vd-container span {
+    text-shadow: none;
+    position: relative;
+    bottom: 0;
+}
+
+
+#grid3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+iframe {
+    width: 85vw;
+    height: 35vh;
+}
+
 }
