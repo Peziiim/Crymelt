@@ -14,6 +14,7 @@
 
 #title {
     margin-left: 0;
+    margin-top: 10px;
     font-size: 1.7rem;
 }
 
@@ -25,16 +26,17 @@
 }
 
 .item {
-    width: 1.2rem;
+    width: 1.3rem;
 }
 
 
 .head-container {
     height: 30vh;
+    margin-bottom: 50px;
 }
 
-.head-container {
-    margin-bottom: 50px;
+.dot-container {
+    display: none;
 }
 
 #vitrine h1 {
@@ -45,38 +47,51 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    min-height: 50vh;
+    min-height: 60vh;
     height: auto;
+}
+ 
+
+#showcase1 {
+    width: 35vw;
+    margin-left: 20px;
+    
+}
+
+#showcase2 {
+    width: 37vw;
+    position: relative;
+    top: -15%;
+    right: -25%;
+
 }
 
 .showcase-txt {
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: 1.7rem;
     position: relative;
-    top: 90px;
-    right: 4vw;
+    top: 120px;
+    right: 7vw;
 }
 
 .showcase-txt button {
     width: auto;
     margin-top: 20px;
-    padding: 5px 20px 5px 20px;
+    padding: 8px 20px 8px 20px;
     font-weight: 550;
-    font-size: 8px;
+    font-size: 10px;
+    
 }
 
 
 .gallery {
-    grid-template-columns: 23vw 23vw 23vw;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 15px;
 }
 
 .gallery-photo {
-    width: 25vw;
-    height: 25vw;
+    width: 40vw;
+    height: 43vw;
 }
 
 

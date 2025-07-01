@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+  
 }
 
 body {
@@ -69,16 +70,16 @@ nav {
     background-image: url('/assets/images/head1.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 100%;
     height: 75vh;
     margin-bottom: 150px;
 }
 
 .dot-container {
     display: flex;
-    position: relative;
-    top: 90%;
-    left: 47.1%;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 95%;
     gap: 5px;
 }
 
@@ -122,11 +123,12 @@ nav {
 .showcase-txt button {
     width: auto;
     margin-top: 20px;
-    padding: 15px 40px 15px 40px;
+    padding: 20px 45px 20px 45px;
     border-radius: 25px;
     border: 2px solid rgb(246, 165, 135);
     background-color: var(--btn-back);
     font-weight: 550;
+    cursor: pointer;
 }
 
 .showcase-txt img {
@@ -148,7 +150,7 @@ nav {
 #vitrine {
     width: 100%;
     height: auto;
-    margin-bottom: 150px;
+    margin-bottom: 250px;
 }
 
 #vitrine h1 {
@@ -161,35 +163,36 @@ nav {
 
 .gallery {
     display: grid;
-    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
     justify-items: end;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     width: 100%;
 }
 
 .gallery-photo {
-    width: 22vw;
+    width: 20vw;
     height: 23vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
+    transition: .4s;
+    cursor: pointer;
 }
 
-/* #seemore {
-    width: 100%;
-    height: 90vh;
-    background-color: var(--background);
-    margin-top: 2px solid blue;
+.gallery-photo:hover {
+    transform: scale(1.05);
+
+}
+
+#seemore {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 900px;
-} */
+    justify-content: start;
+    width: 80%;
+}
 
 #videos {
     height: auto;
@@ -212,7 +215,7 @@ nav {
     font-size: 4rem;
     font-family: var(--font);
     color: white;
-    text-shadow: 120px -70px 5px rgb(242, 193, 58), 0px 20px 80px rgb(242, 193, 58);
+    text-shadow: 120px -70px 5px rgb(242, 193, 58), 0 0 100px rgb(242, 193, 58);
 }
 
 .tw {
