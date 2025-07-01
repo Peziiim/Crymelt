@@ -25,8 +25,8 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
-    width: 100vw;
     height: 65px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -65,17 +65,18 @@ nav {
 
 .head-container {
     background-image: url('/assets/images/head1.png');
-    background-size: 100vw;
+    background-size: 100%;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 75vh;
+    margin-bottom: 150px;
 }
 
 .dot-container {
     display: flex;
     position: relative;
     top: 90%;
-    left: 48%;
+    left: 47.1%;
     gap: 5px;
 }
 
@@ -94,3 +95,77 @@ nav {
 #dot1 {
     background-color: var(--dotcolor);
 }
+
+#vitrine {
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 23vw 23vw 23vw 23vw;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    justify-items: end;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.gallery-photo {
+    width: 22vw;
+    height: 23vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
+
+/* #seemore {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--background);
+    margin-top: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 900px;
+} */
+
+#videos {
+    height: 80vh;
+    width: 100%;
+}
+
+.vd-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    row-gap: 170px; 
+    column-gap: 0; 
+    align-items: center;
+    text-align: center;
+}
+
+#grid3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+iframe {
+    width: 35vw;
+    height: 32vh;
+}
+
+.about-container {
+    display: flex;
+}
+
+#main {
+    width: 50px;
+}
+
+
