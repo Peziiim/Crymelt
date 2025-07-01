@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 #title {
@@ -21,6 +21,7 @@
     justify-content: center;
     align-items: center;
     margin: 0;
+    gap: 15px;
 }
 
 .item {
@@ -32,4 +33,18 @@
     height: 30vh;
 }
 
+.head-container {
+    margin-bottom: 50px;
+}
+
+.gallery {
+    grid-template-columns: 23vw 23vw 23vw;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 15px;
+}
+
+.gallery-photo {
+    width: 25vw;
+    height: 25vw;
+}
 }
