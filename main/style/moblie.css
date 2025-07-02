@@ -45,49 +45,53 @@
 
 #showcase {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    min-height: 60vh;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90vh;
     height: auto;
 }
  
 
 #showcase1 {
-    width: 35vw;
-    margin-left: 20px;
+    width: 39vw;
+    margin-left: 60px;
     
 }
 
 #showcase2 {
     width: 37vw;
     position: relative;
-    top: -15%;
-    right: -25%;
+    top: 90px;
+    right: 20%;
 
 }
 
 .showcase-txt {
-    font-size: 1.7rem;
-    position: relative;
-    top: 35px;
-    right: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    gap: 10px;
 }
 
 #Simg1 {
     background-image: url('/assets/images/card1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 27vw;
-    width: 28vw;
+    height: 33vw;
+    width: 29vw;
 }
 
 
 #Simg2 {
     background-image: url('/assets/images/face2.png');
     background-size: cover;
+    background-position: 90%;
     background-repeat: no-repeat;
-    height: 19vw;
-    width: 28vw;
+    height: 33vw;
+    width: 29vw;
 }
 
 
@@ -95,8 +99,8 @@
     background-image: url('/assets/images/card2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 18vw;
-    width: 28vw;
+    height: 33vw;
+    width: 29vw;
 }
 
 
