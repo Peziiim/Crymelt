@@ -69,19 +69,54 @@
 .showcase-txt {
     font-size: 1.7rem;
     position: relative;
-    top: 120px;
-    right: 7vw;
+    top: 35px;
+    right: 4vw;
 }
 
-.showcase-txt button {
-    width: auto;
-    margin-top: 20px;
-    padding: 8px 20px 8px 20px;
-    font-weight: 550;
-    font-size: 10px;
-    
+#Simg1 {
+    background-image: url('/assets/images/card1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 27vw;
+    width: 28vw;
 }
 
+
+#Simg2 {
+    background-image: url('/assets/images/face2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19vw;
+    width: 28vw;
+}
+
+
+#Simg3 {
+    background-image: url('/assets/images/card2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18vw;
+    width: 28vw;
+}
+
+
+#container-warn{
+    height: auto;
+}
+
+#warnings {
+    height: auto;
+    min-height: 55vh;
+}
+
+#warning1 {
+    height: auto;
+    max-height: 55vh;
+}
+
+#vitrine {
+    margin-bottom: 100px;
+}
 
 .gallery {
     grid-template-columns: auto auto;
