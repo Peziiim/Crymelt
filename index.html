@@ -1,161 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crymelt's gallery</title>
-    <link class="item" rel="shortcut icon" href="./assets/images/icon.png" />
-    <link rel="stylesheet" href="./main/style/style.css" />
-    <link rel="stylesheet" href="/main/style/p.css" />
-    <link rel="stylesheet" href="./main/style/moblie.css" />
-  </head>
-
-  <body>
-    <section id="header">
-      <nav class="nav">
-        <div class="nav-items">
-          <h1 id="title">Crymelt</h1>
-          <ul id="nav-li">
-            <li class="item">
-              <a href="https://www.twitch.tv/crymelt"
-                ><img src="./assets/images/twitch.png" alt=""
-              /></a>
-            </li>
-            <li class="item">
-              <a href="https://www.instagram.com/crymelt/"
-                ><img src="./assets/images/instagram.png" alt=""
-              /></a>
-            </li>
-            <li class="item">
-              <a href="mailto:crymeltcontact@gmail.com"
-                ><img src="./assets/images/email.png" alt=""
-              /></a>
-            </li>
-            <li class="item">
-              <a href="https://www.youtube.com/@crymelt"
-                ><img src="./assets/images/youtube.png" alt=""
-              /></a>
-            </li>
-          </ul>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crymelt - Artista Digital</title>
+    <link rel="shortcut icon" href="./assets/images/icon.png">
+    <link rel="stylesheet" href="./main/style/style.css">
+    <link rel="stylesheet" href="./main/style/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="logo">
+                    <h1 class="brand-name">Crymelt</h1>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#comissoes" class="nav-link">Comissões</a></li>
+                    <li><a href="#videos" class="nav-link">Vídeos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://www.twitch.tv/crymelt" target="_blank" class="social-icon" title="Twitch">
+                        <img src="./assets/images/twitch.png" alt="Twitch">
+                    </a>
+                    <a href="https://www.instagram.com/crymelt/" target="_blank" class="social-icon" title="Instagram">
+                        <img src="./assets/images/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/@crymelt" target="_blank" class="social-icon" title="YouTube">
+                        <img src="./assets/images/youtube.png" alt="YouTube">
+                    </a>
+                    <a href="mailto:crymeltcontact@gmail.com" class="social-icon" title="Email">
+                        <img src="./assets/images/email.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <img src="./assets/images/head1.png" alt="Crymelt" class="hero-image">
+            <div class="hero-text">
+                <h2 class="hero-subtitle">Bem-vindo ao portfólio de</h2>
+                <h1 class="hero-title">Crymelt</h1>
+                <p class="hero-description">Artista digital especializada em ilustrações únicas e personalizadas</p>
+                <a href="#comissoes" class="btn btn-primary">Solicitar Comissão</a>
+            </div>
         </div>
-      </nav>
-
-      <div class="head-container">
-        <div class="dot-container">
-          <div class="dot" id="dot1"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-        </div>
-      </div>
     </section>
 
-    <section id="comission">
-      <div class="grey-cont">
-        <div id="rules">
-        <h1>I'll draw</h1>
-        <h1>Won't draw</h1>
-        <ul>
-         <li>Fanart</li>
-         <li>OC</li>
-         <li>Light gore (blood)</li>
-         <li>Animals</li>
-         <li>Slightly suggestive</li>
-       </ul>
-        <ul>
-          <li>Mecha</li>
-          <li>NSFW</li>
-          <li>Furries</li>
-          <li>Realistic</li>
-        </ul>
-      </div>
-      <form id="com-form" action="">
-        <h1>Ask away</h1>
-        <label for=""></label>
-        <input type="text" placeholder="email">
-        <label for=""></label>
-        <input type="text" placeholder="Subject">
-        <label for=""></label>
-        <textarea name="" id=""></textarea>
-        <input type="submit">
-      </form>
+    <section class="showcase">
+        <div class="showcase-container">
+            <div class="showcase-images">
+                <img src="./assets/images/card1.jpg" alt="Trabalho 1" class="showcase-item">
+                <img src="./assets/images/face2.png" alt="Trabalho 2" class="showcase-item">
+                <img src="./assets/images/card2.jpg" alt="Trabalho 3" class="showcase-item">
+            </div>
+            <div class="showcase-text">
+                <h2>Conhecendo Crymelt</h2>
+                <p>Artista apaixonada por criar ilustrações incríveis e originais. Com anos de experiência, especializo-me em:</p>
+                <ul class="feature-list">
+                    <li><span class="check">✓</span> Fanart profissional</li>
+                    <li><span class="check">✓</span> Personagens originais (OC)</li>
+                    <li><span class="check">✓</span> Ilustrações com detalhes</li>
+                    <li><span class="check">✓</span> Arte digital de alta qualidade</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="comissoes" class="commissions">
+        <div class="commissions-container">
+            <h2 class="section-title">Comissões Abertas</h2>
+            
+            <div class="commission-rules">
+                <div class="rules-box will-draw">
+                    <h3>Faço ✓</h3>
+                    <ul>
+                        <li>Fanart</li>
+                        <li>OC (Personagens Originais)</li>
+                        <li>Gore leve (sangue)</li>
+                        <li>Animais</li>
+                        <li>Levemente sugestivo</li>
+                    </ul>
+                </div>
+                
+                <div class="rules-box wont-draw">
+                    <h3>Não faço ✗</h3>
+                    <ul>
+                        <li>Mechas</li>
+                        <li>NSFW</li>
+                        <li>Furries</li>
+                        <li>Realismo extremo</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h3>Peça uma Comissão</h3>
+                <form id="commissionForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Descreva sua comissão..." rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Enviar Comissão</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="gallery-section">
+        <div class="gallery-container">
+            <h2 class="section-title">Galeria de Obras</h2>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-image="./assets/images/image1.png">
+                    <img src="./assets/images/image1.png" alt="Obra 1">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image2.png">
+                    <img src="./assets/images/image2.png" alt="Obra 2">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image3.png">
+                    <img src="./assets/images/image3.png" alt="Obra 3">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image4.png">
+                    <img src="./assets/images/image4.png" alt="Obra 4">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image5.png">
+                    <img src="./assets/images/image5.png" alt="Obra 5">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image6.png">
+                    <img src="./assets/images/image6.png" alt="Obra 6">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image7.png">
+                    <img src="./assets/images/image7.png" alt="Obra 7">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image8.png">
+                    <img src="./assets/images/image8.png" alt="Obra 8">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image9.png">
+                    <img src="./assets/images/image9.png" alt="Obra 9">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image10.png">
+                    <img src="./assets/images/image10.png" alt="Obra 10">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image11.png">
+                    <img src="./assets/images/image11.png" alt="Obra 11">
+                </div>
+                <div class="gallery-item" data-image="./assets/images/image12.png">
+                    <img src="./assets/images/image12.png" alt="Obra 12">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="galleryModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="modal-nav">
+            <button class="modal-prev">&lt;</button>
+            <button class="modal-next">&gt;</button>
+        </div>
     </div>
-    </section>
 
-    <section id="showcase">
-      <div class="showcase-txt">
-          <div id="Simg1"></div>
-          <div id="Simg2"></div>
-          <div id="Simg3"></div>
-      </div>
-      <div class="showcase-img">
-        <img id="showcase1" src="./assets/images/showcase1.png" alt="" />
-        <img id="showcase2" src="./assets/images/showcase2.png" alt="" />
-      </div>
-    </section>
-
-    <section id="vitrine">
-      <h1>Gallery</h1>
-      <div class="gallery">
-        <div class="gallery-photo" id="p1"></div>
-        <div class="gallery-photo" id="p2"></div>
-        <div class="gallery-photo" id="p3"></div>
-        <div class="gallery-photo" id="p4"></div>
-        <div class="gallery-photo" id="p5"></div>
-        <div class="gallery-photo" id="p6"></div>
-        <div class="gallery-photo" id="p7"></div>
-        <div class="gallery-photo" id="p8"></div>
-        <div class="gallery-photo" id="p9"></div>
-        <div class="gallery-photo" id="p10"></div>
-        <div class="gallery-photo" id="p11"></div>
-        <div class="gallery-photo" id="p12"></div>
-      </div>
-      <div id="seemore">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <p>
-          <span><img src="" alt="" /></span> See more
-        </p>
-      </div>
-    </section>
-
-    <section id="videos">
-      <div class="vd-container">
-        <div>
-          <div>
-            <iframe
-              src="https://www.youtube.com/embed/zhbXXzUTHyw?si=ZG_Z83tl_xekWup4"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <p class="tw">TW: blood</p>
-          </div>
+    <section id="videos" class="videos-section">
+        <div class="videos-container">
+            <h2 class="section-title">Vídeos</h2>
+            
+            <div class="videos-grid">
+                <div class="video-item">
+                    <iframe 
+                        src="https://www.youtube.com/embed/zhbXXzUTHyw?si=ZG_Z83tl_xekWup4" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                    <p class="video-warning"><strong>Aviso:</strong> Gore/Sangue</p>
+                </div>
+                
+                <div class="video-item">
+                    <iframe 
+                        src="https://www.youtube.com/embed/9OcqzOxpGLk?si=2pFSczdLQxqFPIKX" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                    <p class="video-warning"><strong>Aviso:</strong> Gore/Sangue</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <div>
-            <iframe
-              src="https://www.youtube.com/embed/9OcqzOxpGLk?si=2pFSczdLQxqFPIKX"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-            <p class="tw">TW: blood</p>
-          </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Crymelt</h3>
+                <p>Artista digital apaixonada por criar histórias através da arte</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Redes Sociais</h3>
+                <div class="footer-socials">
+                    <a href="https://www.twitch.tv/crymelt" target="_blank" title="Twitch">
+                        <img src="./assets/images/twitch.png" alt="Twitch">
+                    </a>
+                    <a href="https://www.instagram.com/crymelt/" target="_blank" title="Instagram">
+                        <img src="./assets/images/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.youtube.com/@crymelt" target="_blank" title="YouTube">
+                        <img src="./assets/images/youtube.png" alt="YouTube">
+                    </a>
+                    <a href="mailto:crymeltcontact@gmail.com" title="Email">
+                        <img src="./assets/images/email.png" alt="Email">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: crymeltcontact@gmail.com</p>
+            </div>
         </div>
-      </div>
-    </section>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Crymelt. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
-    <section>
-      <footer>Crymelt @</footer>
-    </section>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-  </body>
+    <script src="./main/js/script.js"></script>
+</body>
 </html>
-  <!-- <h3>Crymelt</h3>
-        <img src="assets/images/image01.gif?v=25af843c" />
-        <button>Comissions</button> -->
