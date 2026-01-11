@@ -1,0 +1,57 @@
+#p1 {
+    background-image: url('/assets/images/image1.png');
+}
+
+#p2{
+    background-image: url('/assets/images/image2.png');
+    background-position-y: 50%;
+}
+
+#p3 {
+   background-image: url('/assets/images/image3.png');
+   background-position-y: 40%;
+}
+
+#p4 {
+  background-image: url('/assets/images/image4.png');
+  background-position-y: 50%;
+}
+
+#p5{
+  background-image: url('/assets/images/image5.png');
+}
+
+#p6{
+    background-image: url('/assets/images/image6.png');
+    background-position-y: 30%;
+
+}
+
+#p7{
+  background-image: url('/assets/images/image7.png');
+  background-position-y: 0;
+}
+
+#p8 {
+  background-image: url('/assets/images/image8.png');
+
+}
+
+#p9 {
+  background-image: url('/assets/images/image9.png');
+  background-position-y: 40%;
+}
+
+#p10 {
+  background-image: url('/assets/images/image10.png');
+  background-position-y: 20%;
+}
+
+#p11 {
+  background-image: url('/assets/images/image11.png');
+}
+
+#p12 {
+  background-image: url('/assets/images/image12.png');
+  background-position-y: 10%;
+}

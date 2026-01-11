@@ -1,0 +1,171 @@
+@media (max-width: 940px) {
+    nav {
+    justify-content: center;
+    align-items: center;
+    height: 95px;
+}
+
+.nav-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#title {
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 1.7rem;
+}
+
+#nav-li{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 15px;
+}
+
+.item {
+    width: 1.3rem;
+}
+
+
+.head-container {
+    height: 30vh;
+    margin-bottom: 50px;
+}
+
+.dot-container {
+    display: none;
+}
+
+#vitrine h1 {
+    font-size: 4.5rem;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-bottom: 10vh;
+    height: auto;
+    gap: 30px;
+}
+
+.showcase-img {
+    height: auto;
+    max-height: 60vh;
+}
+
+#showcase1 {
+    width: 50vw;
+    margin-left: 60px;
+    
+}
+
+#showcase2 {
+    width: 50vw;
+    position: block;
+    top: -15vh;
+    right: -35vw;
+
+}
+
+.showcase-txt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin-right: 0;
+    gap: 10px;
+}
+
+#Simg1 {
+    background-image: url('/assets/images/card1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33vw;
+    width: 29vw;
+}
+
+
+#Simg2 {
+    background-image: url('/assets/images/face2.png');
+    background-size: cover;
+    background-position: 90%;
+    background-repeat: no-repeat;
+    height: 33vw;
+    width: 29vw;
+}
+
+
+#Simg3 {
+    background-image: url('/assets/images/card2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 33vw;
+    width: 29vw;
+}
+
+
+#container-warn{
+    height: auto;
+}
+
+#warnings {
+    height: auto;
+    min-height: 55vh;
+}
+
+#warning1 {
+    height: auto;
+    max-height: 55vh;
+}
+
+#vitrine {
+    margin-bottom: 100px;
+}
+
+.gallery {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 15px;
+}
+
+.gallery-photo {
+    width: 40vw;
+    height: 43vw;
+}
+
+
+.vd-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px; 
+    column-gap: 0; 
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.vd-container span {
+    text-shadow: none;
+    position: relative;
+    bottom: 0;
+}
+
+
+#grid3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+iframe {
+    width: 85vw;
+    height: 35vh;
+}
+
+}
