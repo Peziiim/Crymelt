@@ -177,12 +177,24 @@ body {
 /* ==================== HERO SECTION ==================== */
 
 .hero {
+    position: relative;
     min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3rem 2rem;
-    background: linear-gradient(135deg, rgba(28, 29, 43, 0.9), rgba(24, 30, 60, 0.9));
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../../assets/images/head1.png");
+    background-position: center;
+    filter: blur(8px) brightness(70%);
+    transform: scale(1.1); 
+    z-index: -1;
 }
 
 .hero-content {
@@ -215,13 +227,13 @@ body {
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: var(--primary-color);
     font-family: var(--fontmain);
 }
 
 .hero-title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-family: var(--fontmain);
     color: var(--text-light);
     letter-spacing: 3px;
@@ -246,7 +258,6 @@ body {
     transition: var(--transition);
     text-decoration: none;
     text-align: center;
-    font-family: var(--fontmain);
     letter-spacing: 1px;
 }
 
